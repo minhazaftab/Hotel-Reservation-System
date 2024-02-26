@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+.logo img{
+    width: 30%;
+    border: 3px Solid white;
+    border-radius: 25px;
+}
+
+.logoName{
+    width: 25%;
+    display: flex;
+    color: bisque;
+    padding: 20px;
+    justify-content: left;
+    font-size: 20px;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px 14px;
+    font-size: 19px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightNav{
+    width: 45%;
+    text-align: right;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.btn{
+    text-decoration: none;
+    background-color:tomato;
+    font-size: 17px;
+    border: none;
+    color: white;
+    padding: 6.5px;
+    border-radius: 10px;
+}
+
+.btn-sm:hover{
+    color:skyblue; 
+}
+
+.rightNav a{
+    text-decoration: none;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: right;
+    align-content: center;
+}
+
+.bg{
+    background: rgba(0, 0, 0, 0.7) url('../img/bodybg.jpg');
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.mainHead{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium';
+    color:maroon;
+}
+
+.para1{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Lucida Sans';
+    color:white;
+}
+
+.para2and3{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+
+.accomodation{
+    width: 50%;
+}
+.accHead{
+    text-align: center;
+    font-size: 24px;
+    color:lavender;
+    font-family: 'Gill Sans MT';   
+}
+
+.imgAcc{
+    width: 85%;
+    align-items: center;
+    padding: 5%;
+}
+.accPara{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans';
+    padding: 5%;
+}
+
+.facilities{
+    width: 50%;
+}
+.facHead{
+    text-align: center;
+    font-size: 24px;
+    color:lavender;
+    font-family: 'Gill Sans MT';
+}
+
+.imgFac{
+    width: 85%;
+    align-items: center;
+    padding: 5%;
+}
+
+.facPara{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans';
+    padding: 5%;
+}
+
+.map{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%; 
+    height: 300px;
+    border: 0px;
+}
+
+.footBar{
+    display: flex;
+}
+
+.logo2{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+.logo2 img{
+    width: 20%;
+    border: 3px Solid white;
+    border-radius: 25px;
+}
+
+.contDets{
+    display: flex;
+    width: 75%;
+}
+.copyright{
+    width: 25%;
+    display: flex;
+    color: bisque;
+    padding: 20px;
+    justify-content: left;
+    font-size: 20px;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.phone{
+    width: 25%;
+    display: flex;
+    color: bisque;
+    padding: 20px;
+    justify-content: left;
+    font-size: 20px;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.mail{
+    width: 25%;
+    display: flex;
+    color: bisque;
+    padding: 20px;
+    justify-content: left;
+    font-size: 20px;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.rightFoot{
+    text-decoration: none;
+    display: flex;
+    padding: 15px 10px;
+    justify-content: right;
+    align-content: center;
+    width: 8%;
+}
+
+.btn1{
+    text-decoration: none;
+    background-color:tomato;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 6.5px;
+    border-radius: 10px;
+}
+
+.btn-sm1:hover{
+    color:skyblue; 
+}
+
+.contain{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.sub-group{
+    display: flex;
+}
+
+.form-group{
+    padding: 30px;
+    color: navajowhite;
+}
+
+.subBtn{
+    text-decoration: none;
+    background-color:purple;
+    font-size: 17px;
+    border: none;
+    color: white;
+    padding: 6.5px;
+    border-radius: 10px;
+}
+
+.subBtn:hover{
+    color: slateblue;
+}
+
+.resHead{
+    text-align: center;
+    color: maroon;
+    font-family: sans-serif;
+
+}
+
+.accHead1{
+    text-align: left;
+    font-size: 30px;
+    color:purple;
+    font-family: 'Gill Sans MT';
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+.hrA{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.accPara2{
+    text-align: left;
+    font-size: 20px;
+    color:black;
+    font-family: 'Gill Sans MT';
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contain2{
+    padding: 1.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 33%;
+    font-size: 19px;
+}
+
+.table1{
+    border:1px solid black;
+    font-size: 19px;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.tableborder{
+    border:1px solid black;
+}
+
+.accCon{
+    display: flex;
+}
+
+.accoGall{
+    margin-left: 2%;
+}
+
+.imgAcco{
+    padding-left: 4%;
+    padding-right: 3%;
+}
+
+.facHead1{
+    text-align: left;
+    font-size: 30px;
+    color:purple;
+    font-family: 'Gill Sans MT';
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+.legend{
+    padding: 1%;
+    color: white;
+}
+
+.contain3{
+    padding: 1.5%;
+    margin-left: 37%;
+    margin-right: 37%;
+    width: 25%;
+    font-size: 19px;
+}
+
+.gallHead{
+    text-align: left;
+    font-size: 30px;
+    color:purple;
+    font-family: 'Gill Sans MT';
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+.contain4{
+    padding: 1.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
+    font-size: 19px;
+}
+
+.gall1{
+    padding: 1%;
+}
+
+.gall{
+    padding: 2%;
+}
+
+.conHead{
+    text-align: left;
+    font-size: 30px;
+    color:purple;
+    font-family: 'Gill Sans MT';
+    margin-left: 2%;
+    margin-right: 2%
+}
+
